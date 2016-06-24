@@ -9,7 +9,10 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
+{
+    int num;
 
+}
 @end
 
 @implementation AppDelegate
@@ -17,6 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSLog(@"33dgddf");
     return YES;
 }
 
